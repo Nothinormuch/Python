@@ -27,3 +27,15 @@ class LinkedList:
             curr = curr.next
         curr.next = new_node
         self.len += 1
+    
+    def add_loop(self,index):
+        curr = self.head
+        for i in range(index):
+            if(curr != self.head and not curr.next):
+                raise ValueError("invalid linked list index!")
+            curr = curr.next
+        to_node = curr
+        while(curr.next != None):
+            curr = curr.next
+        curr.next = to_node
+
