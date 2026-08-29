@@ -1,0 +1,2 @@
+subject=str(input("Greetings, which subject do you have problem/have homework in?: "))
+print("The link to your ",subject," class is https://us05web.zoom.us/j/83072254102?pwd=M2VXbGFQQWkrTkFYSUI0Rm42UnB2Zz09")

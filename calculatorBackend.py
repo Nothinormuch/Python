@@ -1,0 +1,12 @@
+def add(num1,num2):
+    return  num1+num2
+def minus(num1,num2,reverse=False):
+    if reverse==True:
+        return num1-num2
+    return num2-num1
+def multiply(num1,num2):
+    return num1*num2
+def devide(num1,num2,reverse=False):
+    if reverse==True:
+        return num2/num1
+    return num1/num2
